@@ -9,7 +9,7 @@ docker run -p 5000:5000 execute_reciept
 # Using Postman Service
 ```
 Method: POST 
-URL: http://localhost:5000/receipts/process
+URL: 'http://localhost:5000/receipts/process'
 ```
 # Request Body Example
 ```json
@@ -42,9 +42,10 @@ URL: http://localhost:5000/receipts/process
 }
 ```
 # Using Postman Service
-
-Method: GET, URL: http://localhost:5000/receipts/{id}/points
-
+```
+Method: GET 
+URL: 'http://localhost:5000/receipts/{id}/points'
+```
 # Example
 ```yaml
 id: 4e3cef93-8a60-4642-bb26-f8a9442064c2 
