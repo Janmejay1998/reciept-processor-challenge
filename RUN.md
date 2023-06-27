@@ -14,6 +14,7 @@ Method: POST
 URL: 'http://localhost:5000/receipts/process'
 ```
 # Request Body Example
+Pass any Json body in the body tab from Postman dashboard
 ```json
 {
   "retailer": "M&M Corner Market",
