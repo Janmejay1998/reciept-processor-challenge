@@ -1,11 +1,11 @@
 # For building docker
-
+```cmd command
 docker build -t execute_reciept .
-
+```
 # For starting docker 
-
+```cmd command
 docker run -p 5000:5000 execute_reciept
-
+```
 # Using Postman Service
 
 Method: POST, URL: http://localhost:5000/receipts/process
