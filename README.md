@@ -45,12 +45,12 @@ Method: POST, URL: http://localhost:5000/receipts/process
 Method: GET, URL: http://localhost:5000/receipts/{id}/points
 
 # Example
-
+```yaml
 id: 4e3cef93-8a60-4642-bb26-f8a9442064c2 
-
+```
 # Response Example
 ```json
 {
     "points": 109
 }
-```json
+```
