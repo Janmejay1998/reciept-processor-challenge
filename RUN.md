@@ -1,4 +1,5 @@
 # For building docker
+Execute the following commands
 ```cmd command
 docker build -t execute_reciept .
 ```
