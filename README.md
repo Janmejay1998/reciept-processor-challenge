@@ -1,1 +1,0 @@
-# reciept-processor-challenge
