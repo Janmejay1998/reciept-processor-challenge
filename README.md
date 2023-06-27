@@ -7,9 +7,10 @@ docker build -t execute_reciept .
 docker run -p 5000:5000 execute_reciept
 ```
 # Using Postman Service
-
-Method: POST, URL: http://localhost:5000/receipts/process
-
+```
+Method: POST 
+URL: http://localhost:5000/receipts/process
+```
 # Request Body Example
 ```json
 {
