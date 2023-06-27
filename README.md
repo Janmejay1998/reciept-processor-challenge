@@ -42,7 +42,7 @@ Method: POST, URL: http://localhost:5000/receipts/process
 
 # Using Postman Service
 
-Mehtod: GET, URL: http://localhost:5000/receipts/{id}/points
+Method: GET, URL: http://localhost:5000/receipts/{id}/points
 
 # Example
 
