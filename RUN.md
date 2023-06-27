@@ -1,9 +1,10 @@
 # For building docker
-Execute the following commands
+1. Execute the following command
 ```cmd command
 docker build -t execute_reciept .
 ```
 # For starting docker 
+2. Now Execute this after previous command execution
 ```cmd command
 docker run -p 5000:5000 execute_reciept
 ```
