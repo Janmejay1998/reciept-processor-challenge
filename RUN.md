@@ -39,12 +39,14 @@ Pass any Json body in the body tab from Postman dashboard
 }
 ```
 # Response Example
+Now you will get id which will be used in later steps
 ```json
 {
     "id": "4e3cef93-8a60-4642-bb26-f8a9442064c2"
 }
 ```
 # Using Postman Service
+Use the generated id which you obtained from previous Postman Json body execution
 ```
 Method: GET 
 URL: 'http://localhost:5000/receipts/{id}/points'
@@ -54,6 +56,7 @@ URL: 'http://localhost:5000/receipts/{id}/points'
 id: 4e3cef93-8a60-4642-bb26-f8a9442064c2 
 ```
 # Response Example
+Hence!! You will get the points based on the set of rules mentioned in task!!
 ```json
 {
     "points": 109
